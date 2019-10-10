@@ -1,0 +1,63 @@
+.Prices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .MainTitle {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+.Price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 320px;
+  background: #ed516e80;
+  border: solid 1px #ed516e;
+  margin: 10px;
+
+  button {
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Mont',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    border-radius: 30px;
+    background: #d96b7e;
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    &:hover {
+      background: #ed516e;
+      cursor: pointer;
+    }
+  }
+}
+
+.PriceContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Amount {
+  color: #ffffff;
+  font-size: 71px;
+  line-height: 1.55;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.Text {
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 500;
+  padding-bottom: 5px;
+}

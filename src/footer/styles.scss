@@ -1,0 +1,17 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+  span {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.35;
+  }
+}
+.Logo {
+  max-width: 150px;
+  display: block;
+}

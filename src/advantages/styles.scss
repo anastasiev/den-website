@@ -1,0 +1,36 @@
+.Advantages {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .MainTitle {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+.Container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Advantage {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  span {
+    max-width: 30vw;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+}

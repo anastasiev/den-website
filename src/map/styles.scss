@@ -1,0 +1,46 @@
+.Map {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.Address {
+  position: absolute;
+  z-index: 1;
+  width: 410px;
+  height: 310px;
+  background-color: white;
+  top: 120px;
+  left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  a {
+    color: #ff8562;
+    text-decoration: none;
+  }
+}
+
+.MapContainer {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.AddressTitle {
+  font-size: 30px;
+  line-height: 1.17;
+  margin-bottom: 30px;
+  color: #000
+}
+.AddressSubtitle {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.SocialContainer {
+  padding-top: 10px;
+}

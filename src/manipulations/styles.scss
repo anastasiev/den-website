@@ -1,0 +1,45 @@
+.Manipulations {
+  background-color: #f2d7d9;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .MainTitle {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+.Manipulation {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  img {
+    width: 320px;
+    height: 370px;
+  }
+  li {
+    max-width: 40vw;
+    line-height: 1.55;
+  }
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+}
+.Title {
+  font-size: 34px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.Subtitle {
+  font-size: 22px;
+  color: rgb(237, 81, 121);
+}
+.Reverse {
+  flex-direction: row-reverse;
+}

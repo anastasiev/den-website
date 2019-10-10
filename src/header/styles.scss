@@ -1,0 +1,59 @@
+.Header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 990;
+  width: 100%;
+  background-color: white;
+}
+.Logo {
+  max-width: 100px;
+  width: 100px;
+  display: block;
+  padding-left: 40px;
+  height: 47px;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    color: #313c48;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}
+.Numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.Social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.SocialContainer {
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+.FakeH {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    display: none;
+  }
+  .FakeH {
+    display: initial;
+  }
+}
