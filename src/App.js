@@ -17,7 +17,9 @@ export default function App () {
     return (<ScrollingProvider scrollBehavior = 'smooth'>
         <div className = { Styles.App }>
             <Header />
-            <VideoScreen />
+            <Section id = 'video'>
+                <VideoScreen />
+            </Section>
             <Section id = 'procedure'>
                 <Manipulations />
             </Section>
@@ -30,7 +32,9 @@ export default function App () {
             <Section id = 'advant'>
                 <Advantages />
             </Section>
-            <YoutubeScreen />
+            <Section id = 'youtube'>
+                <YoutubeScreen />
+            </Section>
             <Section id = 'contact'>
                 <Map />
             </Section>
