@@ -4,7 +4,7 @@ import Manipulation from './Manipulation';
 
 export default function Manipulations () {
     return (
-        <div className = { Styles.Manipulations }>
+        <div id="procedure" className = { Styles.Manipulations }>
             <span className = { Styles.MainTitle }>Процедуры</span>
             <Manipulation
                 icon = 'https://static.tildacdn.com/tild3836-3964-4764-a133-396130326633/b198533db35c47afa998.png'
