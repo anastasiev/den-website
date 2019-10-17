@@ -1,5 +1,8 @@
 import React from 'react';
 import { ScrollingProvider, Section } from 'react-scroll-section';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
+
 
 import Header from './header';
 import VideoScreen from './video-screen';
@@ -13,33 +16,38 @@ import Footer from './footer';
 
 import Styles from './styles.scss';
 
+const theme = createMuiTheme({});
+
 export default function App () {
-    return (<ScrollingProvider scrollBehavior = 'smooth'>
-        <div className = { Styles.App }>
-            <Header />
-            <Section id = 'video'>
-                <VideoScreen />
-            </Section>
-            <Section id = 'procedure'>
-                <Manipulations />
-            </Section>
-            <Section id = 'price'>
-                <Prices />
-            </Section>
-            <Section id = 'discount'>
-                <Sales />
-            </Section>
-            <Section id = 'advant'>
-                <Advantages />
-            </Section>
-            <Section id = 'youtube'>
-                <YoutubeScreen />
-            </Section>
-            <Section id = 'contact'>
-                <Map />
-            </Section>
-            <Footer />
-        </div>
-        <h1 className = { Styles.FakeH }>Mobile version is unavailable now, use laptop please</h1>
-    </ScrollingProvider>);
+    return (<ThemeProvider theme = { theme }>
+        <ScrollingProvider scrollBehavior = 'smooth'>
+            <div className = { Styles.App }>
+                <Header />
+                <Section id = 'video'>
+                    <VideoScreen />
+                </Section>
+                <Section id = 'procedure'>
+                    <Manipulations />
+                </Section>
+                <Section id = 'price'>
+                    <Prices />
+                </Section>
+                <Section id = 'discount'>
+                    <Sales />
+                </Section>
+                <Section id = 'advant'>
+                    <Advantages />
+                </Section>
+                <Section id = 'youtube'>
+                    <YoutubeScreen />
+                </Section>
+                <Section id = 'contact'>
+                    <Map />
+                </Section>
+                <Footer />
+            </div>
+            <h1 className = { Styles.FakeH }>Mobile version is unavailable now, use laptop please</h1>
+        </ScrollingProvider>
+    </ThemeProvider>
+    );
 }

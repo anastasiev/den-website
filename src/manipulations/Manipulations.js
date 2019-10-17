@@ -1,10 +1,11 @@
 import React from 'react';
 import Styles from './styles.scss';
 import Manipulation from './Manipulation';
+import ModalButton from '../shared/modal-button';
 
 export default function Manipulations () {
     return (
-        <div id="procedure" className = { Styles.Manipulations }>
+        <div className = { Styles.Manipulations } id = 'procedure'>
             <span className = { Styles.MainTitle }>Процедуры</span>
             <Manipulation
                 icon = 'https://static.tildacdn.com/tild3836-3964-4764-a133-396130326633/b198533db35c47afa998.png'
@@ -48,6 +49,7 @@ export default function Manipulations () {
                 subtitle = 'Моделирование силуэта'
                 title = 'Базовая программа'
             />
+            <ModalButton btnText = 'Получить консультацию' className = { Styles.ModalButton }  />
         </div>
     );
 }

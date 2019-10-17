@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './styles.scss';
 import Advantage from './Advantage';
+import ModalButton from '../shared/modal-button';
 
 export default function Advantages () {
     return (
@@ -46,6 +47,7 @@ export default function Advantages () {
                     text = { `Аппарат Icoone®Laser - это деликатное воздействие с минимальными усилиями для максимального результата!` }
                 />
             </div>
+            <ModalButton btnText = 'Получить консультацию' className = { Styles.ModalButton } />
         </div>
     );
 }
