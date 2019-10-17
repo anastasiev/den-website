@@ -12,7 +12,7 @@ export default function FormDialog ({ open, handleClose }) {
                     <span className = { Styles.Title }>Записаться на прием прямо сейчас!</span>
                     <span className = { Styles.SubTitle }>Просто введите свои данные и наш менеджер свяжется с Вами</span>
                     <form action = 'https://formspree.io/dmytro.anastasiev@gmail.com' method = 'POST'>
-                        <input required name = 'text' placeholder = 'Имя' type = 'text' />
+                        <input required name = 'name' placeholder = 'Имя' type = 'text' />
                         <input required name = 'number' placeholder = 'Номер телефона: +380631234567' type = 'tel' />
                         <input required name = 'email' placeholder = 'E-mail' type = 'email' />
                         <button className = { Styles.Button } type = 'submit'>Отправить</button>
