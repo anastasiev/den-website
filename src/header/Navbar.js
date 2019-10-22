@@ -24,6 +24,7 @@ export default function Navbar () {
             <NavBarItem section = 'discount'>Акции</NavBarItem>
             <NavBarItem section = 'advant'>Преимущества</NavBarItem>
             <NavBarItem section = 'contact'>Контакты</NavBarItem>
+            <NavBarItem section = 'about'>О нас</NavBarItem>
         </div>
     );
 }
