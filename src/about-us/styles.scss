@@ -40,6 +40,8 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   img {
     width: 80px;
     height: 80px;
@@ -53,4 +55,14 @@
 .AdvantageContainer {
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 750px) {
+  .SectionContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .TextSection {
+    width: 80%;
+    margin: 10px;
+  }
 }

@@ -5,6 +5,7 @@ import Styles from './styles.scss';
 import Title from './Title';
 
 import video from '../assets/video1.webm';
+import mobilePic from '../assets/mobile-pic.jpg';
 
 export default function VideoScreen () {
     return (
@@ -17,6 +18,7 @@ export default function VideoScreen () {
                         type = 'video/webm'
                     />
                 </video>
+                <img src={mobilePic}/>
             </div>
         </div>
     );

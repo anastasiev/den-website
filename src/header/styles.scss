@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .Link {
   color: #313c48;
@@ -61,4 +62,24 @@
 .SelectedLink {
   font-weight: 600;
   color: #ed516e;
+}
+
+@media screen and (max-width: 770px) {
+  .Navbar {
+    display: none;
+  }
+  .Header {
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .SocialContainer {
+    padding: 5px;
+  }
+  .Logo {
+    padding: 5px;
+  }
+  .Numbers {
+    padding: 5px;
+  }
 }

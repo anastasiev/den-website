@@ -16,9 +16,11 @@
   width: 100%;
   justify-content: space-evenly;
   padding-top: 50px;
+  align-items: center;
   img {
     width: 320px;
     height: 370px;
+    border-radius: 16px;
   }
   li {
     max-width: 40vw;
@@ -45,4 +47,23 @@
 }
 .ModalButton {
   margin-top: 50px;
+}
+@media screen and (max-width: 750px) {
+  .Manipulation {
+    flex-direction: column;
+    img {
+      width: 220px;
+      height: 270px;
+      padding: 10px;
+    }
+    li {
+      max-width: 80vw;
+    }
+  }
+  .Title {
+    font-size: 24px;
+  }
+  .Subtitle {
+    font-size: 18px;
+  }
 }

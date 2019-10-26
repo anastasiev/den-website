@@ -43,3 +43,15 @@
 .SocialContainer {
   padding-top: 10px;
 }
+@media screen and (max-width: 750px) {
+  .MapContainer {
+     iframe {
+       display: none;
+     }
+  }
+  .Address {
+    position: initial;
+    background-color: #f2d7d9;
+
+  }
+}
