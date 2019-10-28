@@ -23,8 +23,8 @@ export default function Navbar () {
             <NavBarItem section = 'price'>Цены</NavBarItem>
             <NavBarItem section = 'discount'>Акции</NavBarItem>
             <NavBarItem section = 'advant'>Преимущества</NavBarItem>
-            <NavBarItem section = 'contact'>Контакты</NavBarItem>
             <NavBarItem section = 'about'>О нас</NavBarItem>
+            <NavBarItem section = 'contact'>Контакты</NavBarItem>
         </div>
     );
 }
