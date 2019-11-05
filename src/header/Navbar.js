@@ -21,7 +21,6 @@ export default function Navbar () {
         <div className = { Styles.Navbar }>
             <NavBarItem section = 'procedure'>Процедуры</NavBarItem>
             <NavBarItem section = 'price'>Цены</NavBarItem>
-            <NavBarItem section = 'discount'>Акции</NavBarItem>
             <NavBarItem section = 'advant'>Преимущества</NavBarItem>
             <NavBarItem section = 'about'>О нас</NavBarItem>
             <NavBarItem section = 'contact'>Контакты</NavBarItem>

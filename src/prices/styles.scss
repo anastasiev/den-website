@@ -18,9 +18,9 @@
   align-items: center;
   width: 500px;
   height: 320px;
-  background: #ed516e80;
-  border: solid 1px #ed516e;
+  background: #0c0c0c;
   margin: 10px;
+  border-radius: 16px;
 
   button {
     width: 200px;
@@ -31,11 +31,11 @@
     line-height: 1.55;
     font-weight: 500;
     border-radius: 30px;
-    background: #d96b7e;
+    background: #8c8b8b;
     border: 1px solid transparent;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     &:hover {
-      background: #ed516e;
+      border: 1px solid #ed516e;
       cursor: pointer;
     }
   }
@@ -60,7 +60,7 @@
   font-size: 26px;
   line-height: 1.4;
   font-weight: 500;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   text-align: center;
 }
 @media screen and (max-width: 1080px) {

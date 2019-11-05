@@ -32,14 +32,8 @@ export default function App () {
             <Section id = 'price'>
                 <Prices />
             </Section>
-            <Section id = 'discount'>
-                <Sales />
-            </Section>
             <Section id = 'advant'>
                 <Advantages />
-            </Section>
-            <Section id = 'youtube'>
-                <YoutubeScreen />
             </Section>
             <Section id = 'about'>
                 <AboutUs />

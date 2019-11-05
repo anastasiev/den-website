@@ -11,49 +11,65 @@ export default function Prices () {
             <span className = { Styles.MainTitle }>Цены</span>
             <div className = { Styles.PriceContainer }>
                 <Price
-                    duration = { 20 }
                     openDialog = { () => setOpen(true) }
-                    price = { 700 }
-                    title = 'Базовая процедура'
+                    price = { 500 }
+                    title = 'LPG тело'
+                    additional = 'разовая процедура'
                 />
                 <Price
-                    duration = { 20 }
-                    openDialog = { () => setOpen(true) }
-                    price = { 600 }
-                    title = 'Сеанс по лицу'
-                />
-            </div>
-            <div className = { Styles.PriceContainer }>
-                <Price
-                    additional = '+ на выбор 1 дополнительная зона'
-                    duration = { 30 }
-                    openDialog = { () => setOpen(true) }
-                    price = { 850 }
-                    title = 'Базовая процедура'
-                />
-                <Price
-                    additional = '+ на выбор 2 дополнительных зоны'
-                    duration = { 40 }
-                    openDialog = { () => setOpen(true) }
-                    price = { 1000 }
-                    title = 'Базовая процедура'
+                  openDialog = { () => setOpen(true) }
+                  price = { 4500 }
+                  title = 'LPG тело'
+                  additional = 'курс из 10 процедур'
                 />
             </div>
             <div className = { Styles.PriceContainer }>
+              <Price
+                openDialog = { () => setOpen(true) }
+                price = { 400 }
+                title = 'LPG лицо'
+                additional = 'разовая процедура'
+              />
+              <Price
+                openDialog = { () => setOpen(true) }
+                price = { 3500 }
+                title = 'LPG лицо'
+                additional = 'курс из 10 процедур'
+              />
+            </div>
+            <div className = { Styles.PriceContainer }>
                 <Price
-                    additional = '+ на выбор 3 дополнительных зоны'
-                    duration = { 50 }
-                    openDialog = { () => setOpen(true) }
-                    price = { 1150 }
-                    title = 'Базовая процедура'
-                />
-                <Price
-                    additional = '+ на выбор 4 дополнительных зоны'
-                    duration = { 60 }
+                    additional = '(PRESSENSA,PPC) 15 ml'
                     openDialog = { () => setOpen(true) }
                     price = { 1300 }
-                    title = 'Базовая процедура'
+                    title = 'MESO ЛИПОЛИТИК'
                 />
+                <Price
+                    openDialog = { () => setOpen(true) }
+                    price = { 1500 }
+                    title = 'PRP'
+                />
+            </div>
+            <div className = { Styles.PriceContainer }>
+              <Price
+                openDialog = { () => setOpen(true) }
+                price = { 70 }
+                title = 'КОСМЕТИКА  LPG'
+                currency='евро'
+              />
+              <Price
+                openDialog = { () => setOpen(true) }
+                price = { 50 }
+                title = 'БАДЫ LPG SYSTEM'
+                currency='евро'
+              />
+            </div>
+            <div className = { Styles.PriceContainer }>
+              <Price
+                openDialog = { () => setOpen(true) }
+                price = { 500 }
+                title = 'LPG КОСТЮМ ORIGINAL'
+              />
             </div>
             <FormDialog handleClose = { () => setOpen(false) } open = { open } />
         </div>

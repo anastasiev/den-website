@@ -1,6 +1,12 @@
 import React from 'react';
 import Styles from './styles.scss';
 
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
+import img3 from '../assets/img3.jpg';
+import img4 from '../assets/img4.jpg';
+import img5 from '../assets/img5.jpg';
+
 export default function AboutUs () {
     return (
         <div className = { Styles.AboutUs }>
@@ -21,24 +27,24 @@ export default function AboutUs () {
                 <h3>Сегодня Вы можете сделать LPG массаж на Оболоне и Виноградаре, получив комплексную услугу в виде бонусов: </h3>
                 <div className = { Styles.AdvantageContainer }>
                     <div className = { Styles.Advantage }>
-                        <img src = { 'https://static.tildacdn.com/tild6538-3231-4635-b333-343630333230/photo521762140086767.jpg' } />
+                        <img src = { img1 } />
                         <span>{ 'Бесплатную консультацию специалиста и диетолога' }</span>
                     </div>
                     <div className = { Styles.Advantage }>
-                        <img src = { 'https://static.tildacdn.com/tild3435-6266-4862-a237-653064303161/photo521762140086767.jpg' } />
-                        <span>{ 'Дополнение специальных бандажей во время процедуры' }</span>
+                      <img src = { img2 } />
+                      <span>{ 'Дополнение специальных бандажей во время процедуры' }</span>
                     </div>
                     <div className = { Styles.Advantage }>
-                        <img src = { 'https://static.tildacdn.com/tild6230-3039-4032-b833-613037633363/photo521781313679770.jpg' } />
-                        <span>{ 'Использование профессиональной косметики LPG (космоцефтика)' }</span>
+                      <img src = { img3 } />
+                      <span>{ 'Использование профессиональной косметики LPG (космоцефтика)' }</span>
                     </div>
                     <div className = { Styles.Advantage }>
-                        <img src = { 'https://static.tildacdn.com/tild3331-3133-4264-b161-363563366132/photo521780484751082.jpg' } />
-                        <span>{ 'Бонусный массаж лица на аппарате LPG' }</span>
+                      <img src = { img4 } />
+                      <span>{ 'Бонусный массаж лица на аппарате LPG' }</span>
                     </div>
                     <div className = { Styles.Advantage }>
-                        <img src = { 'https://static.tildacdn.com/tild6534-3331-4334-b638-396638303434/photo521781313679770.jpg' } />
-                        <span>{ 'Скидку 10% на полноценный курс процедур' }</span>
+                      <img src = { img5 } />
+                      <span>{ 'Скидку 10% на полноценный курс процедур' }</span>
                     </div>
                 </div>
             </div>

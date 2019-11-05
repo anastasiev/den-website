@@ -43,6 +43,9 @@
 .SocialContainer {
   padding-top: 10px;
 }
+.WhiteSocial {
+
+}
 @media screen and (max-width: 750px) {
   .MapContainer {
      iframe {
@@ -51,7 +54,21 @@
   }
   .Address {
     position: initial;
-    background-color: #f2d7d9;
-
+    background-color: #0c0c0c;
+    width: 100%;
+  }
+  .AddressTitle {
+    color: white
+  }
+  .AddressSubtitle {
+    color: white;
+  }
+  .WhiteSocial {
+    a {
+      svg {
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
   }
 }

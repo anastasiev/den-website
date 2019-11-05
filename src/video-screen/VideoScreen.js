@@ -4,8 +4,8 @@ import Styles from './styles.scss';
 
 import Title from './Title';
 
-import video from '../assets/video1.webm';
-import mobilePic from '../assets/mobile-pic.jpg';
+import video from '../assets/video_massage_720.mp4';
+import mobilePic from '../assets/Picture4.png';
 
 export default function VideoScreen () {
     return (
@@ -15,7 +15,7 @@ export default function VideoScreen () {
                 <video autoPlay loop muted name = 'media'>
                     <source
                         src = { video }
-                        type = 'video/webm'
+                        type = 'video/mp4'
                     />
                 </video>
                 <img src={mobilePic}/>

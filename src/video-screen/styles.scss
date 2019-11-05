@@ -4,7 +4,7 @@
   position: relative;
   video {
     width: 100%;
-    height: 102%;
+    height: 105%;
     opacity: 0.8;
   }
 }
@@ -30,49 +30,60 @@
 }
 .TextContainer {
   line-height: 66px;
-  font-size: 80px;
+  font-size: 60px;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.90);
   letter-spacing: 1px;
   font-weight: 500;
   color: #fff;
   span {
     color: rgb(237, 81, 121);
+    font-size: 70px;
   }
+  max-width: 90%;
 }
 .SmallText {
   font-size:16px;
   color: #fff;
   font-weight: 400;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.90);
-  margin-top: 40px;
+  margin-top: 20px;
   width: 60%;
   line-height: 26px;
 }
 .ModalButton {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 1100px) {
   .ModalButton {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1120px) {
   .SmallText {
     display: none;
   }
   .ModalButton {
-    margin-top: 60px;
+    margin-top: 40px;
+  }
+  .TextContainer {
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 950px) {
   .TextContainer {
-    font-size: 60px;
+    font-size: 40px;
+  }
+  .ModalButton {
+    margin-top: 30px;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 820px) {
   .TextContainer {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 46px;
+    span {
+      font-size: 40px;
+    }
   }
   .VideoContainer {
     height: 500px;

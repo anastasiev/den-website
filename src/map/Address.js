@@ -6,12 +6,10 @@ export default function Address () {
     return (
         <div className = { Styles.Address }>
             <span className={Styles.AddressTitle}>Контакты</span>
-            <span className={Styles.AddressSubtitle}>02140, Киев, пр-т. Николая Бажана 10А</span>
-            <span className={Styles.AddressSubtitle}>+380980203030</span>
-            <span className={Styles.AddressSubtitle}>+380980203030</span>
-            <a href="mailto:GeeLuxspace@gmail.com">GeeLuxspace@gmail.com</a>
+            <span className={Styles.AddressSubtitle}>Киев ул. Калнышевского 7 , мед.центр - “IGMA”</span>
+            <span className={Styles.AddressSubtitle}>+380680355335</span>
             <div className = { Styles.SocialContainer }>
-            <Social />
+            <Social className={Styles.WhiteSocial}/>
             </div>
         </div>
     );
