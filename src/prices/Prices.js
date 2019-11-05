@@ -8,7 +8,7 @@ export default function Prices () {
 
     return (
         <div className = { Styles.Prices }>
-            <span className = { Styles.MainTitle }>Цены</span>
+            <h2 className = { Styles.MainTitle }>Цены</h2>
             <div className = { Styles.PriceContainer }>
                 <Price
                     openDialog = { () => setOpen(true) }

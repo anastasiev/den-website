@@ -10,7 +10,7 @@ import img5 from '../assets/img5.jpg';
 export default function AboutUs () {
     return (
         <div className = { Styles.AboutUs }>
-            <span className = { Styles.MainTitle }>О нас</span>
+            <h2 className = { Styles.MainTitle }>О нас</h2>
             <div className = { Styles.AboutText }>
                 <div className = { Styles.SectionContainer }>
                     <div className = { Styles.TextSection }>

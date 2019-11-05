@@ -11,7 +11,7 @@ import pic4 from '../assets/Picture4.png';
 export default function Manipulations () {
     return (
         <div className = { Styles.Manipulations }>
-            <span className = { Styles.MainTitle }>Процедуры</span>
+            <h2 className = { Styles.MainTitle }>Процедуры</h2>
             <Manipulation
                 icon = {pic2}
                 opts = { [

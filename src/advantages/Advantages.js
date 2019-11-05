@@ -13,7 +13,7 @@ import pic10 from '../assets/Picture10.png';
 export default function Advantages () {
     return (
         <div className = { Styles.Advantages }>
-            <span className = { Styles.MainTitle }>Преимущества</span>
+            <h2 className = { Styles.MainTitle }>Преимущества</h2>
             <div className = { Styles.Container }>
                 <Advantage
                   icon = {pic5}
