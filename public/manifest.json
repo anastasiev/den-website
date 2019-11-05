@@ -1,10 +1,10 @@
 {
-  "short_name": "Den site",
-  "name": "Den website",
+  "short_name": "LPG",
+  "name": "LPG Massage",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "logo.png",
+      "sizes": "766x632",
       "type": "image/png"
     }
   ],
