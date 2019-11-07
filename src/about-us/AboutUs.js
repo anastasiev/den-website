@@ -36,7 +36,7 @@ export default function AboutUs () {
                     </div>
                     <div className = { Styles.Advantage }>
                       <img src = { img3 } />
-                      <span>{ 'Использование профессиональной косметики LPG (космоцефтика)' }</span>
+                      <span>{ 'Использование профессиональной косметики LPG' }</span>
                     </div>
                     <div className = { Styles.Advantage }>
                       <img src = { img4 } />

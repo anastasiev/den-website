@@ -42,26 +42,25 @@ export default function Prices () {
                     additional = '(PRESSENSA,PPC) 15 ml'
                     openDialog = { () => setOpen(true) }
                     price = { 1300 }
-                    title = 'MESO ЛИПОЛИТИК'
+                    title = 'ЛИПОЛИТИК'
                 />
                 <Price
                     openDialog = { () => setOpen(true) }
                     price = { 1500 }
                     title = 'PRP'
+                    additional= '1 пробирка'
                 />
             </div>
             <div className = { Styles.PriceContainer }>
               <Price
                 openDialog = { () => setOpen(true) }
-                price = { 70 }
+                price = { 2100 }
                 title = 'КОСМЕТИКА  LPG'
-                currency='евро'
               />
               <Price
                 openDialog = { () => setOpen(true) }
-                price = { 50 }
+                price = { 1500 }
                 title = 'БАДЫ LPG SYSTEM'
-                currency='евро'
               />
             </div>
             <div className = { Styles.PriceContainer }>

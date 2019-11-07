@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './styles.scss';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/new_logo.jpg';
 import Navbar from './Navbar';
 import Numbers from './Numbers';
 import Social from './Socials';
