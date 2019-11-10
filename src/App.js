@@ -38,6 +38,9 @@ export default function App () {
             <Section id = 'about'>
                 <AboutUs />
             </Section>
+            <Section id = 'youtube'>
+                <YoutubeScreen />
+            </Section>
             <Section id = 'contact'>
                 <Map />
             </Section>

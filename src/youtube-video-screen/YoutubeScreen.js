@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Styles from './styles.scss';
+import video from '../assets/video_massage.mp4';
+import play from '../assets/play.png';
 
 export default function YoutubeScreen () {
+    const [showPlay, setPlay] = useState(true);
+
+    const vidRef = React.createRef();
+
+    const playClick = () => {
+        setPlay(false);
+        vidRef.current.play();
+    };
+
     return (
         <div className = { Styles.YoutubeScreen }>
-            <iframe
-                allowFullScreen frameBorder = '0'
-                height = '540px' src = '//www.youtube.com/embed/gAIrdv1k_UI?rel=0&amp;fmt=18&amp;html5=1&amp;showinfo=0'
-                width = '80%'></iframe>
+            <video
+                controls
+                name = 'media'
+                ref = { vidRef }
+                onClick = { () => setPlay(false) }>
+                <source
+                    src = { video }
+                    type = 'video/mp4'
+                />
+            </video>
+            {showPlay && <img className = { Styles.Play } src = { play } onClick = { playClick} />}
         </div>
     );
 }

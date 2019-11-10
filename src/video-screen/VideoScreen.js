@@ -4,7 +4,7 @@ import Styles from './styles.scss';
 
 import Title from './Title';
 
-import video from '../assets/video_massage_720.mp4';
+import video from '../assets/video_massage_720_cut.mp4';
 import mobilePic from '../assets/Picture4.png';
 
 export default function VideoScreen () {
