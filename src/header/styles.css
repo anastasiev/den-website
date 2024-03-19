@@ -8,7 +8,7 @@
   background-color: white;
   align-items: center;
 }
-.Logo {
+.HeaderLogo {
   max-width: 50px;
   width: 35px;
   display: block;
@@ -54,7 +54,7 @@
     padding-right: 5px;
   }
 }
-.SocialContainer {
+.HeaderSocialContainer {
   padding-right: 40px;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .SocialContainer {
+  .HeaderSocialContainer {
     padding: 5px;
   }
   .Logo {

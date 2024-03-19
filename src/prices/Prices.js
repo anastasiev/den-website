@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Styles from './styles.scss';
+import './styles.css';
 import Price from './Price';
 import DoublePrice from './DoublePrice';
 import FormDialog from '../shared/form-dialog/FormDialog';
@@ -8,9 +8,9 @@ export default function Prices () {
     const [open, setOpen] = React.useState(false);
 
     return (
-        <div className = { Styles.Prices }>
-            <h2 className = { Styles.MainTitle }>Цены</h2>
-            <div className = { Styles.PriceContainer }>
+        <div className = { "Prices" }>
+            <h2 className = { "MainTitle" }>Цены</h2>
+            <div className = { "PriceContainer" }>
                 <DoublePrice
                     complex = 'Курс из 10 процедур - 4500 грн'
                     once = 'Разовая процедура - 500 грн'
@@ -24,7 +24,7 @@ export default function Prices () {
                     title = 'LPG лицо'
                 />
             </div>
-            <div className = { Styles.PriceContainer }>
+            <div className = { "PriceContainer" }>
                 <Price
                     additional = '(PRESSENSA,PPC) 15 ml'
                     openDialog = { () => setOpen(true) }
@@ -38,7 +38,7 @@ export default function Prices () {
                     title = 'PRP'
                 />
             </div>
-            <div className = { Styles.PriceContainer }>
+            <div className = { "PriceContainer" }>
                 <Price
                     openDialog = { () => setOpen(true) }
                     price = { 2100 }
@@ -50,7 +50,7 @@ export default function Prices () {
                     title = 'БАДЫ LPG SYSTEM'
                 />
             </div>
-            <div className = { Styles.PriceContainer }>
+            <div className = { "PriceContainer" }>
                 <Price
                     openDialog = { () => setOpen(true) }
                     price = { 500 }

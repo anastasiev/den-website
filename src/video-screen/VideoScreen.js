@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from './styles.scss';
+import './styles.css';
 
 import Title from './Title';
 
@@ -9,9 +9,9 @@ import mobilePic from '../assets/Picture4.png';
 
 export default function VideoScreen () {
     return (
-        <div className = { Styles.VideoScreen }>
+        <div className = { "VideoScreen" }>
             <Title />
-            <div className = { Styles.VideoContainer }>
+            <div className = { "VideoContainer" }>
                 <video autoPlay loop muted name = 'media'>
                     <source
                         src = { video }

@@ -1,12 +1,12 @@
 import React from 'react';
 import cx from 'classnames';
 
-import Styles from './styles.scss';
+import './styles.css';
 
 
 export default function Social ({className}) {
   return (
-    <div className = { cx(Styles.Social, className) }>
+    <div className = { cx("Social", className) }>
       <a href="https://www.instagram.com/include_aesthetics" >
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 30 30">
           <desc>Instagram</desc>

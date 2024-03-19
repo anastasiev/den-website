@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Styles from './styles.scss';
+import './styles.css';
 import video from '../assets/video_massage.mp4';
 import play from '../assets/play.png';
 
@@ -14,7 +14,7 @@ export default function YoutubeScreen () {
     };
 
     return (
-        <div className = { Styles.YoutubeScreen }>
+        <div className = { "YoutubeScreen" }>
             <video
                 controls
                 name = 'media'
@@ -25,7 +25,7 @@ export default function YoutubeScreen () {
                     type = 'video/mp4'
                 />
             </video>
-            {showPlay && <img className = { Styles.Play } src = { play } onClick = { playClick} />}
+            {showPlay && <img className = { "Play" } src = { play } onClick = { playClick} />}
         </div>
     );
 }

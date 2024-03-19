@@ -1,11 +1,11 @@
 import React from 'react';
-import Styles from './styles.scss';
+import './styles.css';
 import Address from './Address';
 
 export default function Map () {
     return (
-        <div className = { Styles.Map }>
-            <div className = { Styles.MapContainer }>
+        <div className = { "Map" }>
+            <div className = { "MapContainer" }>
                 <iframe
                     frameBorder = '0' height = '500' id = 'gmap_canvas'
                     marginHeight = '0' marginWidth = '0'

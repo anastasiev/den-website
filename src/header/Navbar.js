@@ -2,13 +2,13 @@ import React from 'react';
 import { SectionLink } from 'react-scroll-section';
 import cx from 'classnames';
 
-import Styles from './styles.scss';
+import './styles.css';
 
 const NavBarItem = ({ section, children, gg }) => (
     <SectionLink section = { section }>
         {(link) => (
             <a
-                className = { cx(Styles.Link, { [Styles.SelectedLink]: link.isSelected }) }
+                className = { cx("Link", { ["SelectedLink"]: link.isSelected }) }
                 onClick = { link.onClick }>
                 {children}
             </a>
@@ -18,7 +18,7 @@ const NavBarItem = ({ section, children, gg }) => (
 
 export default function Navbar () {
     return (
-        <div className = { Styles.Navbar }>
+        <div className = { "Navbar" }>
             <NavBarItem section = 'procedure'>Процедуры</NavBarItem>
             <NavBarItem section = 'price'>Цены</NavBarItem>
             <NavBarItem section = 'advant'>Преимущества</NavBarItem>

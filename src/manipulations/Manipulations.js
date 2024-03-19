@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from './styles.scss';
+import './styles.css';
 import Manipulation from './Manipulation';
 import ModalButton from '../shared/modal-button';
 
@@ -10,8 +10,8 @@ import pic4 from '../assets/Picture4.png';
 
 export default function Manipulations () {
     return (
-        <div className = { Styles.Manipulations }>
-            <h2 className = { Styles.MainTitle }>Процедуры</h2>
+        <div className = { "Manipulations" }>
+            <h2 className = { "ManipulationMainTitle" }>Процедуры</h2>
             <Manipulation
                 icon = {pic2}
                 opts = { [
@@ -59,7 +59,7 @@ export default function Manipulations () {
                 subtitle = ''
                 title = 'LPG ТЕРАПИЯ И СПОРТ'
             />
-            <ModalButton btnText = 'Получить консультацию' className = { Styles.ModalButton }  />
+            <ModalButton btnText = 'Получить консультацию' className = { "ManipulationModalButton" }  />
         </div>
     );
 }

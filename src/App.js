@@ -14,7 +14,6 @@ import Advantages from './advantages';
 import Map from './map';
 import Footer from './footer';
 
-import Styles from './styles.scss';
 import AboutUs from './about-us';
 
 const theme = createMuiTheme({});

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import cx from 'classnames';
 import FormDialog from '../form-dialog';
 
-import Styles from './styles.scss';
+import './styles.css';
 
 export default function ModalButton ({ btnText, className }) {
     const [open, setOpen] = React.useState(false);
@@ -10,7 +10,7 @@ export default function ModalButton ({ btnText, className }) {
     return (
         <Fragment>
             <button
-                className = { cx(Styles.Button, className) }
+                className = { cx("Button", className) }
                 onClick = { () => setOpen(true) }>
 
                 { btnText }
