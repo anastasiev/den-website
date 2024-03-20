@@ -10,41 +10,41 @@ import img5 from '../assets/img5.jpg';
 export default function AboutUs () {
     return (
         <div className = { "AboutUs" }>
-            <h2 className = { "MainTitle" }>О нас</h2>
+            <h2 className = { "AboutMainTitle" }>Про нас</h2>
             <div className = { "AboutText" }>
-                <div className = { "SectionContainer" }>
-                    <div className = { "TextSection" }>
-                Наш опыт проведения LPG массажей на оригинальном оборудовании в устранении разных проблем эстетических недостатков тела
-              (целлюлит, обьемы, отечность, дряблости кожи и др.)
-              которые в 99% случаев успешно проводятся уже более 8 лет, только укрепляют нашу веру в силу природных ресурсов кожи.
+                <div className = { "AboutSectionContainer" }>
+                    <div className = { "AboutTextSection" }>
+                      Наш досвід проведення LPG масажів на оригінальному устаткуванні в усуненні різних проблем естетичних недоліків тіла
+                      (целюліт, об'єми, набряклість, в'ялості шкіри та ін.)
+                      які у 99% випадків успішно проводяться вже понад 8 років, лише зміцнюють нашу віру через природні ресурси шкіри.
                     </div>
-                    <div className = { "TextSection" }>
-              Гарантированные результаты.
-              LPG Endermologie существует с 1986 года и является самой популярной косметологической и медицинской процедурой в коррекции фигуры.
-                  Никаких побочных эффектов. Никаких рисков.
+                    <div className = { "AboutTextSection" }>
+                      Гарантовані результати
+                      LPG Endermologie існує з 1986 року і є найпопулярнішою косметологічною та медичною процедурою корекції фігури.
+                      Жодних побічних ефектів. Жодних ризиків.
                     </div>
                 </div>
-                <h3>Сегодня Вы можете сделать LPG массаж на Оболоне и Виноградаре, получив комплексную услугу в виде бонусов: </h3>
-                <div className = { "AdvantageContainer" }>
-                    <div className = { "Advantage" }>
+                <h3>Сьогодні Ви можете зробити LPG масаж на Оболоні та Виноградарі, отримавши комплексну послугу у вигляді бонусів: </h3>
+                <div className = { "AboutAdvantageContainer" }>
+                    <div className = { "AboutAdvantage" }>
                         <img src = { img1 } />
-                        <span>{ 'Бесплатную консультацию специалиста и диетолога' }</span>
+                        <span>{ 'Безкоштовну консультацію фахівця та дієтолога' }</span>
                     </div>
-                    <div className = { "Advantage" }>
+                    <div className = { "AboutAdvantage" }>
                       <img src = { img2 } />
-                      <span>{ 'Дополнение специальных бандажей во время процедуры' }</span>
+                      <span>{ 'Доповнення спеціальних бандажів під час процедури' }</span>
                     </div>
-                    <div className = { "Advantage" }>
+                    <div className = { "AboutAdvantage" }>
                       <img src = { img3 } />
-                      <span>{ 'Использование профессиональной косметики LPG' }</span>
+                      <span>{ 'Використання професійної косметики LPG' }</span>
                     </div>
-                    <div className = { "Advantage" }>
+                    <div className = { "AboutAdvantage" }>
                       <img src = { img4 } />
-                      <span>{ 'Бонусный массаж лица на аппарате LPG' }</span>
+                      <span>{ 'Бонусний масаж на LPG' }</span>
                     </div>
-                    <div className = { "Advantage" }>
+                    <div className = { "AboutAdvantage" }>
                       <img src = { img5 } />
-                      <span>{ 'Скидку 10% на полноценный курс процедур' }</span>
+                      <span>{ 'Знижку 10% на повноцінний курс процедур' }</span>
                     </div>
                 </div>
             </div>

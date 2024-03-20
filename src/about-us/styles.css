@@ -5,12 +5,13 @@
   flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
-  .MainTitle {
-    font-size: 40px;
-    font-weight: 600;
-    margin: 0;
-  }
 }
+.AboutMainTitle {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+}
+
 .AboutText {
   font-size: 16px;
   line-height: 1.55;
@@ -24,7 +25,7 @@
     text-align: center;
   }
 }
-.TextSection {
+.AboutTextSection {
   width: 40%;
   padding: 24px;
   border: 2px solid #0c0c0c;
@@ -33,11 +34,11 @@
   border-radius: 16px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
-.SectionContainer {
+.AboutSectionContainer {
   display: flex;
   justify-content: center;
 }
-.Advantage {
+.AboutAdvantage {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -53,16 +54,16 @@
     line-height: 1.55;
   }
 }
-.AdvantageContainer {
+.AboutAdvantageContainer {
   display: flex;
   flex-direction: column;
 }
 @media screen and (max-width: 750px) {
-  .SectionContainer {
+  .AboutSectionContainer {
     flex-direction: column;
     align-items: center;
   }
-  .TextSection {
+  .AboutTextSection {
     width: 80%;
     margin: 10px;
   }

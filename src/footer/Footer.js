@@ -8,7 +8,7 @@ export default function Footer () {
     return (
         <div className = { "Footer" }>
           <img className = { "FooterLogo" } src = { logo } />
-          <span>© LPG - Правильная привычка для твоего образа жизни</span>
+          <span>© LPG - Правильна звичка для твого способу життя</span>
           <Social />
         </div>
     );

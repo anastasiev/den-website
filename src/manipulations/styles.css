@@ -7,11 +7,11 @@
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
-  .MainTitle {
-    font-size: 40px;
-    font-weight: 600;
-    margin: 0;
-  }
+}
+.ManipulationMainTitle {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
 }
 .Manipulation {
   display: flex;
@@ -19,15 +19,15 @@
   justify-content: space-evenly;
   padding-top: 50px;
   align-items: center;
-  img {
-    width: 370px;
-    height: 320px;
-    border-radius: 16px;
-  }
-  li {
-    max-width: 40vw;
-    line-height: 1.55;
-  }
+}
+.ManipulationImg {
+  width: 370px;
+  height: 320px;
+  border-radius: 16px;
+}
+.ManipulationLi {
+  max-width: 40vw;
+  line-height: 1.55;
 }
 
 .ManipulationText {
@@ -53,19 +53,19 @@
 @media screen and (max-width: 750px) {
   .Manipulation {
     flex-direction: column;
-    img {
-      width: 270px;
-      height: 220px;
-      padding: 10px;
-    }
-    li {
-      max-width: 80vw;
-    }
   }
   .ManipulationTitle {
     font-size: 24px;
   }
   .ManipulationSubtitle {
     font-size: 18px;
+  }
+  .ManipulationImg {
+    width: 270px;
+    height: 220px;
+    padding: 10px;
+  }
+  .ManipulationLi {
+    max-width: 80vw;
   }
 }

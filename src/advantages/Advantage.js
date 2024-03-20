@@ -4,8 +4,8 @@ import './styles.css';
 export default function Advantage ({ text, icon}) {
     return (
         <div className = {"Advantage"}>
-            <span>{ text }</span>
-            <img src = { icon } />
+            <span className = {"AdvantageSpan"}>{ text }</span>
+            <img className = {"AdvantageImg"} src = { icon } />
         </div>
     );
 }

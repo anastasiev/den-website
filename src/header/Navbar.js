@@ -19,11 +19,11 @@ const NavBarItem = ({ section, children, gg }) => (
 export default function Navbar () {
     return (
         <div className = { "Navbar" }>
-            <NavBarItem section = 'procedure'>Процедуры</NavBarItem>
-            <NavBarItem section = 'price'>Цены</NavBarItem>
-            <NavBarItem section = 'advant'>Преимущества</NavBarItem>
-            <NavBarItem section = 'about'>О нас</NavBarItem>
-            <NavBarItem section = 'contact'>Контакты</NavBarItem>
+            <NavBarItem section = 'procedure'>Процедури</NavBarItem>
+            <NavBarItem section = 'price'>Ціни</NavBarItem>
+            <NavBarItem section = 'advant'>Переваги</NavBarItem>
+            <NavBarItem section = 'about'>Про нас</NavBarItem>
+            <NavBarItem section = 'contact'>Контакти</NavBarItem>
         </div>
     );
 }
